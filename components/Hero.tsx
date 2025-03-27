@@ -33,16 +33,12 @@ const Hero = () => {
       style={{
         backgroundImage,
       }}
+      id="about" 
       className="relative flex min-h-screen items-center justify-center px-8 py-24 text-gray-200"
     >
       {/* Container to keep content centered */}
       <div className="container mx-auto flex items-center gap-16">
-        {/* LEFT SIDE (Text & Buttons) */}
         <div className="flex flex-col w-[60%]">
-          {/* <span className="mb-2 inline-block rounded-full bg-gray-600/50 px-4 py-2 text-sm">
-            Open for work
-          </span> */}
-
           {/* <div className="flex bg-white/10 shadow-xl p-3 rounded-3xl justify-center items-center space-x-2 mb-4 mt-4">
             <Image
               src="/obj1.png"

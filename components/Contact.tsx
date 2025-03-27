@@ -12,8 +12,8 @@ import insta from "@/public/insta.svg";
 const Contact = () => {
   return (
     <section
-      id="conatct"
-      className="py-24 text-white max-w-[1200px] mx-auto px-4"
+      id="contact"
+      className="overflow-x-clip py-24 text-white max-w-[1200px] mx-auto px-4"
     >
       <motion.div
         initial={{ opacity: 0, y: 20 }}
