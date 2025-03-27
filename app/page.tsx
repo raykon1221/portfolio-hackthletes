@@ -6,7 +6,6 @@ import { Navbar } from "@/components/Navbar";
 import ProjectsSection from "@/components/ProjectsSection";
 import Stack from "@/components/Stack";
 import { TimelineDemo } from "@/components/TimelineDemo";
-import Image from "next/image";
 
 export default function Home() {
   return (

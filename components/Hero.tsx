@@ -36,25 +36,15 @@ const Hero = () => {
       id="about" 
       className="relative flex min-h-screen items-center justify-center px-8 py-24 text-gray-200"
     >
-      {/* Container to keep content centered */}
+
       <div className="container mx-auto flex items-center gap-16">
         <div className="flex flex-col w-[60%]">
-          {/* <div className="flex bg-white/10 shadow-xl p-3 rounded-3xl justify-center items-center space-x-2 mb-4 mt-4">
-            <Image
-              src="/obj1.png"
-              alt="object"
-              width={30}
-              height={30}
-              className="rounded-2xl"
-            />
-            <p className="font-medium">Welcome to my Portfolio</p>
-          </div> */}
           <h1 className="text-white text-5xl md:text-6xl font-black">
             Hey, this is 
           </h1>
           <h1 className="max-w-3xl bg-gradient-to-br from-white to-gray-400 bg-clip-text font-black leading-tight text-transparent text-5xl md:text-7xl">
             <motion.span
-              style={{ color }} // Apply dynamic color
+              style={{ color }} 
             >
             <Typewriter
               words={["Xin Rou", "Developer"]}
@@ -79,7 +69,7 @@ const Hero = () => {
             whileTap={{ scale: 0.985 }}
             className="flex w-fit items-center gap-2 rounded-full px-4 py-2 bg-gray-800 text-white shadow-lg"
           >
-            Let's Connect
+            Let&apos;s Connect
           </motion.button>
           <motion.button
             style={{ border, boxShadow }}
@@ -93,10 +83,9 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* RIGHT SIDE (Image) */}
         <div className="w-[45%] flex justify-center">
           <Image
-            src="/azuki.png" // Change to your actual image
+            src="/azuki.png" 
             alt="Crystal"
             width={400}
             height={400}

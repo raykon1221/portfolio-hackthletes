@@ -1,13 +1,11 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { address } from "framer-motion/client";
 import Link from "next/link";
 import Image from "next/image";
 import github from "@/public/github.svg";
 import linkedin from "@/public/linkedin.svg";
 import insta from "@/public/insta.svg";
-
 
 const Contact = () => {
   return (
@@ -73,7 +71,7 @@ const Contact = () => {
                 <Link href="https://www.linkedin.com/in/lee-xin-rou-77b730262/">
                     <Image src={linkedin} alt="linkedin" />
                 </Link>
-                <Link href="" className="mt-1">
+                <Link href="https://www.instagram.com/xinrou1221.xr/" className="mt-1">
                     <Image src={insta} alt="insta"/>
                 </Link>
             </div>
