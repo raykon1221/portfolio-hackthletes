@@ -36,8 +36,8 @@ const Hero = () => {
       id="about"
       className="relative flex min-h-screen items-center justify-center px-8 py-24 text-gray-200"
     >
-      <div className="container mx-auto flex items-center gap-16">
-        <div className="flex flex-col w-[60%]">
+      <div className="container mx-auto flex items-center gap-16 min-w-7xl">
+        <div className="flex flex-col w-[60%] pl-8">
           <h1 className="text-white text-5xl md:text-7xl font-black">
             Hey, this is
           </h1>
