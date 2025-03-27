@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Poppins } from "next/font/google";
+import SplashCursor from "@/components/SplashCursor";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -22,6 +23,7 @@ export default function RootLayout({
       <body
         className={`${poppins.className} antialiased`}
       >
+        <SplashCursor />
         {children}
       </body>
     </html>
