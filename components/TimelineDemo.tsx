@@ -148,11 +148,7 @@ export function TimelineDemo() {
     },
   ];
   return (
-<<<<<<< HEAD
     <div className="w-full" id="background" >
-=======
-    <div className="w-full">
->>>>>>> 9822303 (portfolio)
       <Timeline data={data} />
     </div>
   );
