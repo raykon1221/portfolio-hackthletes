@@ -6,6 +6,10 @@ import { Navbar } from "@/components/Navbar";
 import ProjectsSection from "@/components/ProjectsSection";
 import Stack from "@/components/Stack";
 import { TimelineDemo } from "@/components/TimelineDemo";
+<<<<<<< HEAD
+=======
+import Image from "next/image";
+>>>>>>> 9822303 (portfolio)
 
 export default function Home() {
   return (
