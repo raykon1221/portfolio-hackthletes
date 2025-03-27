@@ -1,30 +1,17 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-<<<<<<< HEAD
-=======
-import { address } from "framer-motion/client";
->>>>>>> 9822303 (portfolio)
 import Link from "next/link";
 import Image from "next/image";
 import github from "@/public/github.svg";
 import linkedin from "@/public/linkedin.svg";
 import insta from "@/public/insta.svg";
 
-<<<<<<< HEAD
 const Contact = () => {
   return (
     <section
       id="contact"
       className="overflow-x-clip py-24 text-white max-w-[1200px] mx-auto px-4"
-=======
-
-const Contact = () => {
-  return (
-    <section
-      id="conatct"
-      className="py-24 text-white max-w-[1200px] mx-auto px-4"
->>>>>>> 9822303 (portfolio)
     >
       <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -84,11 +71,7 @@ const Contact = () => {
                 <Link href="https://www.linkedin.com/in/lee-xin-rou-77b730262/">
                     <Image src={linkedin} alt="linkedin" />
                 </Link>
-<<<<<<< HEAD
                 <Link href="https://www.instagram.com/xinrou1221.xr/" className="mt-1">
-=======
-                <Link href="" className="mt-1">
->>>>>>> 9822303 (portfolio)
                     <Image src={insta} alt="insta"/>
                 </Link>
             </div>

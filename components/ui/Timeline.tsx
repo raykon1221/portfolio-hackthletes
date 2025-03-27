@@ -1,15 +1,6 @@
 "use client";
 
-<<<<<<< HEAD
 import { useScroll, useTransform, motion } from "motion/react";
-=======
-import {
-  useMotionValueEvent,
-  useScroll,
-  useTransform,
-  motion,
-} from "motion/react";
->>>>>>> 9822303 (portfolio)
 import React, { useEffect, useRef, useState } from "react";
 
 interface TimelineEntry {
@@ -47,13 +38,9 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
           A little background about me
         </h2>
         <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-2xl">
-<<<<<<< HEAD
           I am currently studying Computer Science (General) at Asia Pacific
           University. My journey into web development began in mid-2024, and
           this is how it unfolds...
-=======
-        I am currently studying Computer Science (General) at Asia Pacific University. My journey into web development began in mid-2024, and this is how it unfolds...
->>>>>>> 9822303 (portfolio)
         </p>
       </div>
 
