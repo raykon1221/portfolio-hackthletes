@@ -6,7 +6,7 @@ type ProjectCardProps = {
   imgUrl: string;
   title: string;
   description: string;
-  tags?: string[]; // Optional array of strings
+  tags?: string[]; 
   gitUrl: string;
   previewUrl: string;
 };

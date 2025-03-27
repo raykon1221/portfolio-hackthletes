@@ -1,4 +1,5 @@
 "use client";
+
 import {
   useMotionTemplate,
   useMotionValue,
@@ -39,7 +40,7 @@ const Hero = () => {
       <div className="container mx-auto flex items-center gap-16 min-w-7xl">
         <div className="flex flex-col w-[60%] pl-8">
           <h1 className="text-white text-5xl md:text-7xl font-black">
-            Hey, this is
+            Hey, I am
           </h1>
           <h1 className="max-w-3xl bg-gradient-to-br from-white to-gray-400 bg-clip-text font-black leading-tight text-transparent text-5xl md:text-8xl">
             <motion.span style={{ color }}>

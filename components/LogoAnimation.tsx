@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import React from "react";
 import Image from "next/image";
-import elementor from "@/public/elementor.png";
 import logitech from "@/public/logitech.png";
 import oracle from "@/public/oracle.png";
 import hata from "@/public/hata.png";
@@ -13,25 +12,21 @@ import bybit from "@/public/bybit.png";
 const images = [
   { src: binance, alt: "binance" },
   { src: bybit, alt: "bybit" },
-  { src: elementor, alt: "elementor" },
   { src: logitech, alt: "logitech" },
   { src: oracle, alt: "oracle" },
   { src: binance, alt: "binance" },
   { src: hata, alt: "hata" },
   { src: bybit, alt: "bybit" },
-  { src: elementor, alt: "elementor" },
   { src: logitech, alt: "logitech" },
   { src: oracle, alt: "oracle" },
   { src: binance, alt: "binance" },
   { src: hata, alt: "hata" },
   { src: bybit, alt: "bybit" },
-  { src: elementor, alt: "elementor" },
   { src: logitech, alt: "logitech" },
   { src: oracle, alt: "oracle" },
   { src: binance, alt: "binance" },
   { src: hata, alt: "hata" },
   { src: bybit, alt: "bybit" },
-  { src: elementor, alt: "elementor" },
   { src: logitech, alt: "logitech" },
   { src: oracle, alt: "oracle" },
 ];
